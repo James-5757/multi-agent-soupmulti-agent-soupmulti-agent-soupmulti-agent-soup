@@ -1,25 +1,26 @@
-🧩 Multi-Agent Turtle Soup Solver
+# 🧩 Multi-Agent Turtle Soup Solver  
+**A multi-agent reasoning system for solving “Turtle Soup / Lateral Thinking Puzzles” using DeepSeek APIs**
 
-A multi-agent reasoning system for solving “Turtle Soup / Lateral Thinking Puzzles” using DeepSeek APIs
+本项目实现了一个**多智能体协作的海龟汤解谜系统**：
 
-本项目实现了一个多智能体协作的海龟汤解谜系统：
+- 3 类不同风格的 AI 玩家  
+- 1 个负责总结的 AI  
+- 1 个掌握真相的出题者  
+- 自动进行多轮提问、回答、推理与总结  
+- 最终输出整场推理日志（含真相）到 Markdown 文件  
 
-3 类不同风格的 AI 玩家
+支持 DeepSeek 的 `deepseek-chat` 模型。
 
-1 个负责总结的 AI
+---
 
-1 个掌握真相的出题者
+## 📁 项目结构
 
-自动进行多轮提问、回答、推理与总结
-
-最终输出整场推理日志（含真相）到 Markdown 文件
-
-支持 DeepSeek 的 deepseek-chat 模型。
-
-📁 项目结构（示例）
+```bash
 .
 ├── agent.py                # 主程序
 ├── README.md               # 项目说明
+
+
 
 🚀 功能特点
 ✔ 多 Agent 协作
